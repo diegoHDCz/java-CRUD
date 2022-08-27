@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: super
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: spring
+
