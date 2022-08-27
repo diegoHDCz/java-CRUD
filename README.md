@@ -25,3 +25,7 @@ Em um terminal integrado ou no caminho da pasta digite:
 Aguarde a instalação do container do PostgreSQL.
 
 Iniciar Classe SpringbootApplication para que a base local seja disponibilizada para testes.
+
+Para acessar documentação feita pelo Swagger da REST API, basta acessar o link abaixo com o servidor local em funcionamento:
+
+<a>http://localhost:8080/swagger-ui.html</a>
